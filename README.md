@@ -5,6 +5,13 @@
 git clone https://github.com/HyeJung-Hwang/speed-up-pipeline.git
 ```
 
+### .env 파일을 만들고 아래 형식으로 aws 계정 정보를 넣어 주세요.
+```bash
+AWS_REGION_NAME=""
+AWS_ACCESS_KEY_ID=""
+AWS_SECRET_ACCESS_KEY=""
+```
+
 ### Docker Image를 빌드해주세요.
 ```bash
 docker build -t compare-pq-csv .
